@@ -12,7 +12,6 @@ public class Personagem {
     /*
     CRIANDO MEU METODO CONSTRUTOR "Personagem"
      */
-
     public Personagem(String nome, String classe, int nivel, int pontosDeVida, double poderBase) {
         this.nome = nome;
         this.classe = classe;
@@ -24,7 +23,6 @@ public class Personagem {
     /* 
     CRIANDO METODO DE EXIBIÇÃO DO STATUS DOS PERSONAGENS CRIADOS
     */
-
     public void exibirStatus() {
         System.out.println("\n--- Status do Personagem ---");
         System.out.println("Nome............: " + nome);
